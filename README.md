@@ -2,6 +2,8 @@
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
+link: https://docs.modv.io/docs/
+
 ## Installation
 
 ```console
@@ -18,6 +20,8 @@ This command starts a local development server and open up a browser window. Mos
 
 ## Build
 
+### link
+
 ```console
 yarn build
 ```
@@ -32,21 +36,4 @@ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
-## Translation
 
-To add languages add to locales in **docusaurs.config.js**
-
-i18n: {
-defaultLocale: "en",
-locales: ["en", "fr"],
-localeConfigs: {
-en: {
-htmlLang: "en-GB",
-},
-// You can omit a locale (e.g. fr) if you don't need to override the defaults
-},
-},
-
-Run following commands:
-
-1. execute npm run start -- --locale fr to deploy website in french.
