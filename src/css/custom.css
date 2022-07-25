@@ -1,0 +1,78 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #1072ba;
+  --ifm-color-primary-dark: #0f3658;
+  --ifm-color-primary-darker: #09253d;
+  --ifm-color-primary-darkest: #061929;
+  --ifm-color-primary-light: #2c88cb;
+  --ifm-color-primary-lighter: #4fa3e1;
+  --ifm-color-primary-lightest: #89cbfb;
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+h2,
+h3,
+h4,
+strong {
+  color: #2c88cb;
+}
+
+html[data-theme="dark"] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* .param-type {
+  color: #2c88cb;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.param-location {
+  color: #ababab;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.param-is-required {
+  color: #ca2e2e;
+  float: right;
+}
+
+.param-default-value {
+  color: #ababab;
+  float: right;
+}
+
+.swagger-link {
+  float: right;
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+} */
+
+.monaco-editor,
+.monaco-editor-background,
+.monaco-editor .inputarea.ime-input {
+  background-color: #fafafa !important;
+}

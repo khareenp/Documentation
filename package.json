@@ -1,0 +1,44 @@
+{
+  "name": "modv",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear",
+    "crowdin": "crowdin",
+    "write-translations": "docusaurus-write-translations"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^2.0.0-beta.18",
+    "@mdx-js/react": "^1.6.22",
+    "docusaurus-preset-openapi": "0.4.0",
+    "prism-react-renderer": "^1.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "redocusaurus": "^0.5.0",
+    "swagger2openapi": "^7.0.8"
+  },
+  "devDependencies": {
+    "@crowdin/cli": "^3.7.8",
+    "axios": "^0.24.0",
+    "crowdin": "^3.5.0",
+    "clsx": "^1.1.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
