@@ -1,6 +1,7 @@
 # Website
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+##All content belongs to Yick Solutions LTD
 
 link: https://docs.modv.io/docs/
 
